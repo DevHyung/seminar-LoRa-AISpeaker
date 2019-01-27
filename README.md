@@ -28,3 +28,8 @@ ___
 │── PAPER/                    - 논문폴더
 │   └── AI 스피커를 이용한 LoRa모듈제어(박형준).pdf
 ```
+
+## 참조
+[코드주 LoRa쉴드 예제 ](https://github.com/codezoo-ltd/SNIPE)
+
+[로라야 놀자 아두이노 PDF](https://cafe.naver.com/mechawiki)

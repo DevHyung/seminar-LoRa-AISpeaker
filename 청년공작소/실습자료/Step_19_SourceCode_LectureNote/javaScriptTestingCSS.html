@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onblur Event Page</title>
+	
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	
+	<script>
+
+	function doMath()
+	{
+		var x = 2;
+		var y = 10;
+		var z = 4;
+		var answer = x * y / z;
+		
+		document.getElementById("output").innerHTML = "The result is " + answer;
+	}
+	</script>
+	
+	<style type="text/css">
+		p.regular {color:blue;font-size:100%;}
+		p.medium {color:green;font-size:150%}
+	</style>
+
+</head>
+
+<body>
+
+	<p>JavaScript Testing.</p>
+	
+	<button onclick="doMath();">Do the Math</button>
+	<p id="output" style="color:green;font-size:200%;"></p>
+	
+	<p class="regular">This is a test of regular.</p>
+	<p class="testClass">This is a test of the test Class.</p>
+	
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+}
+
+.testClass {
+	color.red;
+	font-size:300%;
+}
+
+.regular{
+	color:blue;
+	font-size:100%
+}
+table {
+	border: 1px solid red;
+	width: 90%
+}
+
+td {
+	border: 1px solid black;
+	/*text-align: left;
+	padding: 8px;*/
+}
+/*
+tr:nth-child(even){
+	background-color: lightgray;
+}
+tr:nth-child(odd){
+	background-color: white;
+}
+*/
+#output {
+	color: green;
+	font-size: 200%;
+}
+
+#google {
+	float: left;
+	height:40px;
+}
+
+#text{
+	color: blue;
+	font-size: 200%
+	clear: left;
+}

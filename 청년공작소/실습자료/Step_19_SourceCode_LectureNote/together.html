@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Together Page</title>
+	
+	<link rel="stylesheet" type="text/css" href="together.css">
+	
+	<script>
+
+	function doMath()
+	{
+		var x = 2;
+		var y = 10;
+		var z = 4;
+		var answer = x * y / z;
+		
+		document.getElementById("output").innerHTML = "The result is " + answer;
+	}
+	</script>
+
+</head>
+
+<body>
+	<H1>Together Page</H1>
+	
+	<button onclick="doMath();">Do the Math</button>
+	<p id="output"></p>
+	
+	<img id="google" src="google.png"/>
+	
+	<p id="text">Practicing HTML is fun. <em>So far</em> we have learned 
+	<strong>HTML</strong> is a language made of tags that 
+	help us describe how we want our webpages to look. 
+	We have tried the <em>head, title, H(heading),</em>
+	 and paragraph tags so far. <br>
+	Very few people know all the tags in HTML, 
+	but that is okay because we can do a lot with just
+	 some basic tags. We can learn about new tags when 
+	 we need them.</p>
+	 
+	<p class="regular">This is a test of regular.</p>
+	
+	<p class="testClass">This is a test of test Class.</p>
+	
+	<table>
+	<tr>
+	<td>Day 1</td><td>Walking</td><td>30 minutes</td>
+	</tr>
+	<tr>
+	<td>Day 2</td><td>Swimming</td><td>45 minutes</td>
+	</tr>
+	<tr>
+	<td>Day 3</td><td>Resting</td><td>500 minutes</td>
+	</tr>
+	<tr>
+	<td>Day 4</td><td>Resting</td><td>500 minutes</td>
+	</tr>
+	</table>
+</body>
+
+</html>
